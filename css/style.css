@@ -380,10 +380,10 @@ img,svg{ display:block; max-width: 100%; }
 ================================ */
 .contact{ max-width: var(--max-width); margin: 0 auto; padding: 0 24px 120px; }
 
-.contact-grid{
+.form-row-group{
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 48px;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 32px;
 }
 
 .form-row{ margin-bottom: 22px; }
@@ -426,22 +426,6 @@ img,svg{ display:block; max-width: 100%; }
   line-height: 1.7;
 }
 
-.contact-direct{
-  border: 1px solid var(--paper-line);
-  padding: 32px 28px;
-  align-self: start;
-}
-.contact-direct-label{
-  font-family: var(--font-mono);
-  font-size: .72rem;
-  letter-spacing: .1em;
-  color: var(--stamp-red);
-  margin: 0 0 18px;
-}
-.contact-direct-item{ font-size: .98rem; margin: 0 0 10px; }
-.contact-direct-item a{ border-bottom: 1px solid var(--paper-line); }
-.contact-direct-note{ font-size: .8rem; color: var(--ink-soft); margin-top: 16px; }
-
 /* ================================
    フッター
 ================================ */
@@ -465,7 +449,7 @@ img,svg{ display:block; max-width: 100%; }
   .service-grid{ grid-template-columns: 1fr; }
   .flow-list{ grid-template-columns: repeat(2, 1fr); }
   .flow-step{ padding-right: 0; }
-  .contact-grid{ grid-template-columns: 1fr; }
+  .form-row-group{ grid-template-columns: 1fr; }
 
   .site-nav{
     position: fixed;
