@@ -102,15 +102,6 @@ img,svg{ display:block; max-width: 100%; }
 }
 .site-nav a:hover::after{ transform: scaleX(1); }
 
-.nav-cta{
-  border: 1px solid var(--ink);
-  padding: 8px 18px;
-  font-size: .85rem;
-  white-space: nowrap;
-  transition: background .2s ease, color .2s ease;
-}
-.nav-cta:hover{ background: var(--ink); color: var(--paper); }
-
 .nav-toggle{
   display: none;
   flex-direction: column;
@@ -473,7 +464,6 @@ img,svg{ display:block; max-width: 100%; }
   }
   .site-nav a{ padding: 12px 0; border-top: 1px solid var(--paper-line); }
 
-  .nav-cta{ display: none; }
   .nav-toggle{ display: flex; }
 }
 
