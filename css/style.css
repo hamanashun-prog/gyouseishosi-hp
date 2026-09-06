@@ -212,6 +212,10 @@ img,svg{ display:block; max-width: 100%; }
   transition: background .2s ease;
 }
 
+.service-card-wide{ grid-column: 1 / -1; }
+.service-card-wide .card-desc,
+.service-card-wide .card-list{ max-width: 640px; }
+
 .service-card:hover,
 .service-card:focus-visible{
   background: var(--pale-cyan);
