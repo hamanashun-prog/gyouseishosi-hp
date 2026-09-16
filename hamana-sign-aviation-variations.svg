@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1350" viewBox="0 0 1920 1350">
+  <rect width="1920" height="1350" fill="#f3f0ea"/>
+  <text x="90" y="90" fill="#1b1b1b" font-size="46" font-family="Meiryo,sans-serif" font-weight="700">航空・ドローンを感じる書体・構成案</text>
+  <text x="92" y="135" fill="#69645e" font-size="23" font-family="Meiryo,sans-serif">家旗の意匠は固定。専門性が伝わる「軌跡」と、相談しやすい端正さを両立。</text>
+
+  <!-- A: flight path / strong wordmark -->
+  <text x="90" y="220" fill="#45403a" font-size="26" font-family="Meiryo,sans-serif" font-weight="700">A　飛行経路を加えた、専門性重視の一列表記</text>
+  <g transform="translate(90 255)">
+    <rect width="1740" height="380" fill="#008fb9"/>
+    <rect x="60" y="34" width="192" height="312" fill="#fff"/>
+    <rect x="111" y="80" width="90" height="79" fill="none" stroke="#111" stroke-width="24"/>
+    <rect x="111" y="225" width="90" height="79" fill="none" stroke="#111" stroke-width="24"/>
+    <!-- ascending route inspired by a drone/aircraft flight plan -->
+    <path d="M330 290 C435 270, 478 217, 548 122" fill="none" stroke="#d5f5f4" stroke-width="11" stroke-linecap="round"/>
+    <path d="M519 127 L552 115 L543 151" fill="none" stroke="#d5f5f4" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="620" y1="65" x2="620" y2="315" stroke="#b4e5df" stroke-width="2"/>
+    <g transform="skewX(-5)">
+      <text x="700" y="244" fill="#fff" font-size="120" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
+    </g>
+  </g>
+
+  <!-- B: flight wing / two-tier -->
+  <text x="90" y="755" fill="#45403a" font-size="26" font-family="Meiryo,sans-serif" font-weight="700">B　翼をモチーフにした、親しみと信頼の二段書き</text>
+  <g transform="translate(90 790)">
+    <rect width="1480" height="440" fill="#009fc2"/>
+    <rect x="60" y="39" width="198" height="362" fill="#fff"/>
+    <rect x="114" y="95" width="90" height="79" fill="none" stroke="#111" stroke-width="24"/>
+    <rect x="114" y="265" width="90" height="79" fill="none" stroke="#111" stroke-width="24"/>
+    <!-- broad, abstract wing: an upward sweep rather than a literal aircraft -->
+    <path d="M350 317 C435 275, 494 202, 574 91 L680 91 C578 199, 513 301, 426 363 Z" fill="#d5f5f4"/>
+    <path d="M408 341 C488 298, 544 230, 605 145" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <line x1="716" y1="78" x2="716" y2="362" stroke="#b4e5df" stroke-width="2"/>
+    <text x="790" y="230" fill="#fff" font-size="114" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士</text>
+    <text x="795" y="365" fill="#fff" font-size="114" font-family="Meiryo,sans-serif" font-weight="700">事務所</text>
+  </g>
+</svg>

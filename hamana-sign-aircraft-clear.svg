@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1290" viewBox="0 0 1920 1290">
+  <rect width="1920" height="1290" fill="#f3f0ea"/>
+  <text x="90" y="90" fill="#1b1b1b" font-size="46" font-family="Meiryo,sans-serif" font-weight="700">航空・ドローンを明確に伝える案</text>
+  <text x="92" y="135" fill="#69645e" font-size="23" font-family="Meiryo,sans-serif">旗の意匠は固定。航空のモチーフを、見ただけで分かる形にしました。</text>
+
+  <!-- Drone version -->
+  <text x="90" y="220" fill="#45403a" font-size="26" font-family="Meiryo,sans-serif" font-weight="700">A　ドローン申請の専門性を正面から伝える案</text>
+  <g transform="translate(90 255)">
+    <rect width="1740" height="380" fill="#009fc2"/>
+    <!-- family flag -->
+    <rect x="60" y="34" width="192" height="312" fill="#fff"/>
+    <rect x="111" y="80" width="90" height="79" fill="none" stroke="#111" stroke-width="24"/>
+    <rect x="111" y="225" width="90" height="79" fill="none" stroke="#111" stroke-width="24"/>
+    <line x1="312" y1="65" x2="312" y2="315" stroke="#b4e5df" stroke-width="2"/>
+    <!-- unmistakable quadcopter icon -->
+    <g transform="translate(380 91)" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M78 80 L150 123 L222 80 M150 123 L150 178"/>
+      <path d="M77 80 L44 44 M223 80 L256 44"/>
+      <circle cx="35" cy="35" r="31"/>
+      <circle cx="265" cy="35" r="31"/>
+      <circle cx="150" cy="208" r="42" fill="#fff" stroke="none"/>
+      <path d="M132 208 L168 208" stroke="#009fc2" stroke-width="9"/>
+      <path d="M150 178 L150 238"/>
+    </g>
+    <text x="720" y="166" fill="#d5f5f4" font-size="32" font-family="Meiryo,sans-serif" font-weight="700" letter-spacing="7">DRONE SUPPORT</text>
+    <text x="718" y="280" fill="#fff" font-size="110" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
+  </g>
+
+  <!-- Aircraft version -->
+  <text x="90" y="755" fill="#45403a" font-size="26" font-family="Meiryo,sans-serif" font-weight="700">B　飛行機のシルエットで、航空法・飛行許可を想起させる案</text>
+  <g transform="translate(90 790)">
+    <rect width="1740" height="380" fill="#008fb9"/>
+    <!-- family flag -->
+    <rect x="60" y="34" width="192" height="312" fill="#fff"/>
+    <rect x="111" y="80" width="90" height="79" fill="none" stroke="#111" stroke-width="24"/>
+    <rect x="111" y="225" width="90" height="79" fill="none" stroke="#111" stroke-width="24"/>
+    <line x1="312" y1="65" x2="312" y2="315" stroke="#b4e5df" stroke-width="2"/>
+    <!-- clear airplane seen from above -->
+    <g transform="translate(390 85)" fill="#fff">
+      <path d="M151 4 C164 5 171 20 170 39 L164 106 L276 159 C290 166 291 183 277 185 L164 160 L160 255 L203 290 C212 298 205 309 194 306 L151 278 L108 306 C97 309 90 298 99 290 L142 255 L138 160 L25 185 C11 183 12 166 26 159 L138 106 L132 39 C131 20 138 5 151 4 Z"/>
+    </g>
+    <text x="720" y="166" fill="#d5f5f4" font-size="32" font-family="Meiryo,sans-serif" font-weight="700" letter-spacing="7">AVIATION LAW</text>
+    <text x="718" y="280" fill="#fff" font-size="110" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
+  </g>
+</svg>

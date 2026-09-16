@@ -21,6 +21,21 @@
   <rect width="1600" height="720" fill="url(#sky)"/>
   <path d="M1040 112 C1095 50 1197 76 1219 142 C1274 102 1352 138 1358 181 C1361 194 1350 202 1336 202 L1033 202 C1019 202 1010 192 1012 178 C1014 151 1023 130 1040 112 Z" fill="#fff" opacity=".24"/>
   <path d="M88 572 C140 520 227 535 248 590 C293 551 366 586 370 642 L30 642 C31 615 59 589 88 572 Z" fill="#fff" opacity=".17"/>
+  <!-- 左上の端を飛ぶ、オレンジ色の固定翼ドローン -->
+  <g transform="translate(38 62) rotate(7 85 40)" stroke-linejoin="round" filter="url(#shadow)">
+    <!-- 主翼・胴体 -->
+    <path d="M28 45 L79 20 L143 25 L182 48 L144 62 L79 58 Z" fill="#f05a24" stroke="#b83317" stroke-width="3"/>
+    <path d="M5 49 Q6 37 21 35 L79 38 L85 54 L21 60 Q7 60 5 49 Z" fill="#ff6b2c" stroke="#b83317" stroke-width="3"/>
+    <!-- フロートを思わせる下部と、尾翼の双胴 -->
+    <path d="M47 59 L75 59 L67 76 L40 74 Z" fill="#d9451d"/>
+    <path d="M111 55 L133 55 L151 91 L133 91 Z" fill="#e74c1e" stroke="#b83317" stroke-width="2"/>
+    <path d="M151 52 L170 51 L188 87 L170 88 Z" fill="#e74c1e" stroke="#b83317" stroke-width="2"/>
+    <path d="M132 90 L159 79 L188 87 L160 101 Z" fill="#f56a29" stroke="#b83317" stroke-width="2"/>
+    <!-- 翼の上面とコックピット -->
+    <path d="M58 37 L91 5 L114 7 L99 39 Z" fill="#ff6b2c" stroke="#b83317" stroke-width="3"/>
+    <path d="M85 32 L111 27 L124 42 L91 43 Z" fill="#283f49" stroke="#b7e4e7" stroke-width="2"/>
+    <path d="M89 33 L108 30" fill="none" stroke="#d8f8fa" stroke-width="2" opacity=".75"/>
+  </g>
   <!-- 遠景を飛ぶ小さなドローン -->
   <g transform="translate(900 105)" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <g stroke="#e9fbfc" stroke-width="5" opacity=".7">

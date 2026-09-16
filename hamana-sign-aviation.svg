@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="520" viewBox="0 0 1920 520">
+  <rect width="1920" height="520" fill="#009fc2"/>
+
+  <!-- 家旗：白地に太い黒枠の「口」を上下に配した縦長の意匠 -->
+  <rect x="98" y="45" width="230" height="430" fill="#ffffff"/>
+  <rect x="160" y="109" width="106" height="98" fill="none" stroke="#111111" stroke-width="26"/>
+  <rect x="160" y="302" width="106" height="98" fill="none" stroke="#111111" stroke-width="26"/>
+
+  <!-- 翼を思わせる上昇するライン。家旗の右に、飛行の動きだけを控えめに加える -->
+  <path d="M390 350 C505 305, 574 236, 666 119" fill="none" stroke="#d5f5f4" stroke-width="13" stroke-linecap="round"/>
+  <path d="M622 133 L670 116 L658 167" fill="none" stroke="#d5f5f4" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M414 367 C515 333, 581 280, 634 220" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+
+  <line x1="742" y1="98" x2="742" y2="422" stroke="#b4e5df" stroke-width="2"/>
+  <text x="822" y="315" fill="#ffffff" font-size="130" font-weight="700" font-family="Meiryo,sans-serif">ハマナ行政書士事務所</text>
+</svg>

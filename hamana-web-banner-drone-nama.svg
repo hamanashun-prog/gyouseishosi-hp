@@ -19,27 +19,10 @@
     </linearGradient>
   </defs>
   <rect width="1600" height="720" fill="url(#sky)"/>
-  <path d="M1040 112 C1095 50 1197 76 1219 142 C1274 102 1352 138 1358 181 C1361 194 1350 202 1336 202 L1033 202 C1019 202 1010 192 1012 178 C1014 151 1023 130 1040 112 Z" fill="#fff" opacity=".24"/>
-  <path d="M88 572 C140 520 227 535 248 590 C293 551 366 586 370 642 L30 642 C31 615 59 589 88 572 Z" fill="#fff" opacity=".17"/>
-  <!-- 遠景を飛ぶ小さなドローン -->
-  <g transform="translate(900 105)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <g stroke="#e9fbfc" stroke-width="5" opacity=".7">
-      <ellipse cx="18" cy="20" rx="26" ry="6" transform="rotate(-12 18 20)"/>
-      <ellipse cx="94" cy="20" rx="26" ry="6" transform="rotate(12 94 20)"/>
-      <ellipse cx="35" cy="57" rx="22" ry="5" transform="rotate(14 35 57)"/>
-      <ellipse cx="77" cy="57" rx="22" ry="5" transform="rotate(-14 77 57)"/>
-    </g>
-    <g stroke="#244653" stroke-width="7">
-      <path d="M55 37 L20 22 M55 37 L92 22 M55 39 L36 56 M55 39 L75 56"/>
-    </g>
-    <g fill="#294b57" stroke="#d4f4f5" stroke-width="2">
-      <circle cx="18" cy="20" r="6"/><circle cx="94" cy="20" r="6"/>
-      <circle cx="35" cy="57" r="5"/><circle cx="77" cy="57" r="5"/>
-    </g>
-    <path d="M40 31 Q56 21 71 31 L76 45 Q56 53 36 45 Z" fill="#274955" stroke="#d4f4f5" stroke-width="2"/>
-  </g>
+  <path d="M1040 112 C1095 50 1197 76 1219 142 C1274 102 1352 138 1358 202 L1012 202 C1011 165 1023 132 1040 112 Z" fill="#fff" opacity=".14"/>
+  <path d="M88 572 C140 520 227 535 248 590 C293 551 366 586 370 642 L30 642 C31 615 59 589 88 572 Z" fill="#fff" opacity=".09"/>
   <text x="126" y="172" fill="#e6fbff" font-size="27" font-family="Meiryo,sans-serif" font-weight="700" letter-spacing="4">DRONE FLIGHT PERMIT SUPPORT</text>
-  <text x="120" y="317" fill="#fff" font-size="100" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
+  <text x="120" y="317" fill="#fff" font-size="100" font-family="Meiryo,sans-serif" font-weight="700">濵名行政書士事務所</text>
   <text x="128" y="393" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">ドローン飛行の許可・承認申請をサポート</text>
   <text x="128" y="450" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">各種許認可、相続、補助金申請など、</text>
   <text x="128" y="505" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">行政手続きも幅広く対応します</text>

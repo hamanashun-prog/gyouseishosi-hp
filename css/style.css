@@ -2,20 +2,20 @@
    トークン
 ================================ */
 :root{
-  --bg: #F7FBFC;
+  --bg: #F5FAFC;
   --bg-deep: #EAF6F7;
   --border: #D8ECEF;
-  --ink: #111111;
+  --ink: #153C50;
   --ink-soft: #4B5B62;
-  --turquoise: #009FC2;
+  --turquoise: #007C9D;
   --turquoise-deep: #007F9B;
   --pale-cyan: #B4E5DF;
 
-  --font-display: 'Noto Sans JP', sans-serif;
-  --font-body: 'Noto Sans JP', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-body: 'Meiryo', 'メイリオ', sans-serif;
+  --font-display: var(--font-body);
+  --font-mono: var(--font-body);
 
-  --max-width: 1080px;
+  --max-width: 1200px;
 }
 
 *{ box-sizing: border-box; }
@@ -459,4 +459,126 @@ img,svg{ display:block; max-width: 100%; }
   .card-title{ font-size: 1.08rem; }
   .about-row{ grid-template-columns: 1fr; }
   .about-row dt{ border-right: none; border-bottom: 1px solid var(--border); }
+}
+
+/* 空色のバナーと旗のモチーフを軸にした共通レイアウト */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+section[id],main[id]{scroll-margin-top:100px}
+.site-header{background:rgba(255,255,255,.97);border-bottom:1px solid var(--border)}
+.header-inner{min-height:88px;padding:18px 32px;gap:32px}
+.brand{gap:13px;flex-shrink:0}
+.brand-symbol{width:27px;display:grid;gap:5px;border-left:2px solid #b39155;padding-left:6px}
+.brand-symbol i{display:block;width:17px;height:15px;border:4px solid var(--ink)}
+.brand-wordmark{font-size:18px;font-weight:800;letter-spacing:.04em;line-height:1.5}
+.brand-wordmark small{display:block;font-size:8px;font-weight:500;letter-spacing:.13em;color:var(--turquoise);margin-top:3px}
+.site-nav{gap:26px;font-size:13px;font-weight:700}
+.site-nav a{color:var(--ink);white-space:nowrap}
+.site-nav a:last-child{color:var(--turquoise)}
+.nav-toggle{flex-shrink:0;width:40px;height:40px;padding:7px}
+.nav-toggle span{background:var(--ink);height:2px}
+.nav-toggle[aria-expanded="true"] span:first-child{transform:translateY(7px) rotate(45deg)}
+.nav-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.nav-toggle[aria-expanded="true"] span:last-child{transform:translateY(-7px) rotate(-45deg)}
+.hero{max-width:1440px;padding:24px 32px 0}
+.hero-banner{width:100%;height:auto;border-radius:5px 5px 48px 5px;background:#007ca9}
+.hero-inner{max-width:1136px;margin:auto;padding:54px 0 60px;display:grid;grid-template-columns:1fr 1.15fr;gap:72px;align-items:start}
+.eyebrow{font-size:10px;letter-spacing:.15em;margin:0;padding-top:7px}
+.eyebrow span{display:block;margin-top:18px;font-family:var(--font-body);font-size:clamp(21px,2.5vw,29px);font-weight:700;letter-spacing:.025em;color:var(--ink);line-height:1.8}
+.hero-lead{max-width:none;margin:0;font-size:14px;line-height:2.2}
+.perforation{border-top:1px solid var(--border);max-width:1136px}
+.services,.flow,.about,.contact{padding:0 32px 88px}
+.section-head{padding:72px 0 36px;max-width:none}
+.section-label{font-size:10px;letter-spacing:.15em;font-weight:500;margin-bottom:16px;display:flex;align-items:center;gap:13px}
+.section-label::before{content:"";width:24px;height:2px;background:var(--turquoise)}
+.section-head h2{font-size:clamp(25px,3vw,36px);letter-spacing:.025em;line-height:1.6}
+.section-desc{font-size:14px;max-width:740px;line-height:2}
+.service-grid{gap:20px;background:none;border:0}
+.service-card{padding:36px;background:#fff;border:1px solid var(--border);border-radius:4px 4px 24px 4px;display:flex;flex-direction:column;transition:transform .2s,border-color .2s,box-shadow .2s}
+.service-card:hover,.service-card:focus-visible{background:#fff;border-color:#75c7d6;transform:translateY(-3px);box-shadow:0 12px 28px #153c500b}
+.service-card:first-child{border-top:4px solid #0d96b6;background:#edf8fb}
+.card-no{font-size:10px;margin-bottom:24px}
+.card-icon{width:120px;height:88px;margin-bottom:22px;flex-shrink:0}
+.card-title{font-size:22px;line-height:1.55;margin-bottom:18px}
+.card-desc{font-size:13px;line-height:2}
+.card-list{font-size:13px;margin-bottom:26px}
+.card-list li{font-size:13px}
+.card-more{margin-top:auto;justify-content:space-between;padding-top:18px;border-top:1px solid var(--border);font-family:var(--font-body);font-weight:700;font-size:12px}
+.card-more span{font-size:22px;line-height:1}
+.service-card-wide{background:var(--ink);color:white;position:relative}
+.service-card-wide:hover,.service-card-wide:focus-visible{background:#1c4b61}
+.service-card-wide .card-title,.service-card-wide .card-list li{color:white}
+.service-card-wide .card-desc{color:#d8e9ef;max-width:850px}
+.service-card-wide .card-no,.service-card-wide .card-icon,.service-card-wide .card-more,.service-card-wide .card-list li::before{color:#86deed}
+.service-card-wide .card-list,.service-card-wide .card-more{border-color:#ffffff30}
+.flow-list{gap:24px}
+.flow-step{padding:24px 0 0;border-top:2px solid #b8dfe7}
+.flow-num{font-size:32px;opacity:1;font-weight:400;margin-bottom:18px}
+.flow-step h3{font-size:16px}
+.flow-step p{font-size:13px;line-height:2}
+.about{display:grid;grid-template-columns:1fr 1.65fr;gap:64px;padding-top:80px}
+.about .section-head{padding:0}
+.about-card{padding:0;border:0;background:#fff;border-radius:4px;overflow:hidden}
+.about-table{border:0}
+.about-row{grid-template-columns:125px 1fr}
+.about-row dt{background:#eaf5f8;border:0;padding:22px 20px;font-family:var(--font-body);font-size:12px;font-weight:700}
+.about-row dd{padding:22px 24px;font-size:13px;line-height:1.9}
+.contact{max-width:960px;padding-bottom:96px}
+.contact .section-head{text-align:center}
+.contact .section-label{justify-content:center}
+.contact .section-desc{margin:20px auto 0}
+.contact-form{padding:40px;background:#fff;border:1px solid var(--border);border-radius:6px 6px 28px 6px}
+.contact-status{font-size:13px;padding:16px 20px;background:#eff7fa;border-left:3px solid #168ca9;margin:0 0 30px;color:var(--ink-soft)}
+.form-row label{font-size:13px;font-weight:700;color:var(--ink)}
+.form-row input,.form-row select,.form-row textarea{font-size:16px;border-radius:3px;min-width:0;max-width:100%;background:#fbfdfe}
+.form-row textarea{resize:vertical}
+.btn{border-radius:3px;font-size:14px}
+.btn:disabled{background:#dce8ed;border-color:#dce8ed;color:#506974;cursor:not-allowed}
+.form-note{text-align:center}
+.site-footer{background:#153c50;color:#fff;border:0;padding:42px 32px}
+.footer-brand{font-size:20px;color:white}
+.footer-address{max-width:650px;margin:16px auto 24px;color:#c4dae3;line-height:2}
+.footer-copy{color:#96bdcc;font-size:10px}
+@media(min-width:901px){.site-nav{visibility:visible!important}}
+@media(max-width:900px){
+  .header-inner{min-height:80px;padding:16px 24px}
+  .site-nav{position:absolute;top:100%;visibility:hidden;background:#fff;box-shadow:0 18px 25px #153c5010}
+  .site-nav.is-open{visibility:visible}
+  .hero{padding:20px 24px 0}
+  .hero-inner{gap:32px;padding:36px 0 44px}
+  .eyebrow span{font-size:22px}
+  .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .service-card{padding:26px}
+  .card-title{font-size:19px}
+  .flow-list{gap:32px}
+  .about{grid-template-columns:1fr;gap:28px;padding-top:56px}
+}
+@media(max-width:600px){
+  section[id],main[id]{scroll-margin-top:85px}
+  .header-inner{min-height:74px;padding:14px 18px;gap:10px}
+  .brand{gap:10px}
+  .brand-wordmark{font-size:15px;letter-spacing:0}
+  .brand-wordmark small{font-size:6.5px}
+  .hero{padding:12px 12px 0}
+  .hero-banner{border-radius:3px 3px 20px 3px}
+  .hero-inner{grid-template-columns:1fr;padding:30px 12px 36px;gap:22px}
+  .eyebrow span{font-size:23px;margin-top:12px}
+  .hero-lead{font-size:13px}
+  .services,.flow,.about,.contact{padding-left:24px;padding-right:24px;padding-bottom:52px}
+  .section-head{padding:48px 0 26px}
+  .section-head h2{font-size:25px}
+  .section-desc{font-size:13px}
+  .service-grid{grid-template-columns:1fr;gap:16px}
+  .service-card{padding:28px 24px}
+  .card-title{font-size:21px}
+  .flow-list{grid-template-columns:1fr;gap:24px}
+  .flow-step{padding-left:52px;position:relative}
+  .flow-num{position:absolute;left:0;top:20px;font-size:25px}
+  .about-row{grid-template-columns:1fr}
+  .about-row dt{padding:12px 18px}
+  .about-row dd{padding:16px 18px}
+  .contact .section-head{text-align:left}
+  .contact .section-label{justify-content:flex-start}
+  .contact-form{padding:24px 18px}
+  .contact-status{padding:12px;font-size:12px}
+  .form-row-group{gap:0}
 }

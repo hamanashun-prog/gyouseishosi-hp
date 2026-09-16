@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1500" viewBox="0 0 1800 1500">
+  <rect width="1800" height="1500" fill="#f3f0ea"/>
+  <style>
+    .heading{font-family:'Yu Mincho','Hiragino Mincho ProN',serif;fill:#161616}.body{font-family:'Yu Gothic','Hiragino Kaku Gothic ProN',sans-serif;fill:#242424}.label{font-family:Arial,sans-serif;font-size:22px;letter-spacing:3px;fill:#6e6860}.name{font-family:'Yu Mincho','Hiragino Mincho ProN',serif}.sub{font-family:'Yu Gothic','Hiragino Kaku Gothic ProN',sans-serif;font-size:25px;letter-spacing:4px}
+  </style>
+  <text x="100" y="105" class="heading" font-size="52">ハマナ行政書士事務所</text>
+  <text x="103" y="150" class="body" font-size="24" fill="#716b63">家旗の「二つの白い方形」を受け継ぐ、ロゴ・看板デザイン案</text>
+
+  <!-- Concept 01 -->
+  <g transform="translate(100 230)">
+    <text class="label" x="0" y="0">01 / 端正・現代的</text>
+    <rect x="0" y="35" width="1600" height="325" rx="4" fill="#fff"/>
+    <!-- 家旗：白地に、上下二つの「口」 -->
+    <rect x="75" y="82" width="190" height="230" fill="#fff" stroke="#111111" stroke-width="3"/>
+    <rect x="130" y="120" width="80" height="75" fill="none" stroke="#111111" stroke-width="10"/>
+    <rect x="130" y="215" width="80" height="75" fill="none" stroke="#111111" stroke-width="10"/>
+    <text x="335" y="177" class="sub" fill="#67625b">HAMANA</text>
+    <text x="330" y="250" class="name" font-size="64">ハマナ行政書士事務所</text>
+    <line x1="335" y1="278" x2="1210" y2="278" stroke="#c9c2b8" stroke-width="2"/>
+    <text x="335" y="317" class="body" font-size="23" fill="#6a645b">暮らしと事業の、確かな手続きの窓口</text>
+    <text x="1320" y="206" class="body" font-size="20" fill="#736d64">黒と白だけで</text>
+    <text x="1320" y="237" class="body" font-size="20" fill="#736d64">小さな印にも強い</text>
+  </g>
+
+  <!-- Concept 02 -->
+  <g transform="translate(100 675)">
+    <text class="label" x="0" y="0">02 / 品格・伝統</text>
+    <rect x="0" y="35" width="1600" height="325" rx="4" fill="#102432"/>
+    <!-- 家旗は反転せず、白地と黒い口をそのまま使用 -->
+    <rect x="75" y="80" width="194" height="235" fill="#fff" stroke="#c8a45a" stroke-width="3"/>
+    <rect x="130" y="119" width="82" height="75" fill="none" stroke="#111111" stroke-width="10"/>
+    <rect x="130" y="216" width="82" height="75" fill="none" stroke="#111111" stroke-width="10"/>
+    <text x="335" y="155" class="sub" fill="#d3b66c">HAMANA LEGAL OFFICE</text>
+    <text x="330" y="239" class="name" font-size="64" fill="#f6f1e6">ハマナ行政書士事務所</text>
+    <line x1="335" y1="268" x2="1190" y2="268" stroke="#a98d50" stroke-width="1"/>
+    <text x="335" y="310" class="body" font-size="23" fill="#d9d4ca">受け継ぐ誠実さを、未来の手続きへ</text>
+    <text x="1320" y="200" class="body" font-size="20" fill="#c8c5bf">濃紺・真鍮色で</text>
+    <text x="1320" y="231" class="body" font-size="20" fill="#c8c5bf">落ち着いた印象</text>
+  </g>
+
+  <!-- Concept 03 -->
+  <g transform="translate(100 1120)">
+    <text class="label" x="0" y="0">03 / 町の看板・親しみ</text>
+    <rect x="0" y="35" width="1600" height="245" rx="4" fill="#009fc2"/>
+    <!-- 家旗：白地に、上下二つの「口」 -->
+    <rect x="75" y="48" width="125" height="218" fill="#fff" stroke="#e6e1d7" stroke-width="2"/>
+    <rect x="108" y="82" width="59" height="53" fill="none" stroke="#111111" stroke-width="11"/>
+    <rect x="108" y="184" width="59" height="53" fill="none" stroke="#111111" stroke-width="11"/>
+    <text x="275" y="135" class="name" font-size="52" fill="#fffdf8">ハマナ行政書士事務所</text>
+    <line x1="280" y1="168" x2="1230" y2="168" stroke="#a5e3dd" stroke-width="1"/>
+    <text x="1320" y="146" class="body" font-size="20" fill="#e6ffff">浅葱色をベースに</text>
+    <text x="1320" y="177" class="body" font-size="20" fill="#e6ffff">太い「口」で印象的に</text>
+  </g>
+</svg>

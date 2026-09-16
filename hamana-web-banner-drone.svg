@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#19b9d4"/>
+      <stop offset="1" stop-color="#0081b0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#00516d" flood-opacity=".20"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="720" fill="url(#sky)"/>
+  <!-- 余白に空の気配を添える、控えめな雲 -->
+  <path d="M920 125 C970 65 1075 82 1097 145 C1152 105 1230 136 1236 202 L895 202 C893 163 904 140 920 125 Z" fill="#fff" opacity=".13"/>
+  <path d="M1260 407 C1300 364 1374 375 1390 421 C1431 394 1483 419 1487 465 L1199 465 C1200 437 1230 416 1260 407 Z" fill="#fff" opacity=".10"/>
+
+  <!-- family flag -->
+  <rect x="92" y="74" width="184" height="572" rx="2" fill="#fff" filter="url(#shadow)"/>
+  <rect x="139" y="163" width="90" height="86" fill="none" stroke="#151515" stroke-width="24"/>
+  <rect x="139" y="461" width="90" height="86" fill="none" stroke="#151515" stroke-width="24"/>
+
+  <text x="362" y="258" fill="#e6fbff" font-size="28" font-family="Meiryo,sans-serif" font-weight="700" letter-spacing="4">DRONE FLIGHT PERMIT SUPPORT</text>
+  <text x="355" y="385" fill="#fff" font-size="93" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
+  <text x="362" y="452" fill="#e6fbff" font-size="34" font-family="Meiryo,sans-serif">ドローン飛行の許可・承認申請をサポート</text>
+  <rect x="363" y="503" width="322" height="70" rx="35" fill="#fff"/>
+  <text x="411" y="549" fill="#007fa7" font-size="28" font-family="Meiryo,sans-serif" font-weight="700">ご相談はこちら →</text>
+
+  <!-- friendly flat drone illustration, intentionally non-photorealistic -->
+  <g transform="translate(1162 264)" filter="url(#shadow)">
+    <g fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M143 152 L46 80 M143 152 L240 80 M143 152 L143 253"/>
+      <path d="M46 80 L16 36 M240 80 L270 36"/>
+      <circle cx="13" cy="31" r="37" fill="#d8f8fb"/>
+      <circle cx="273" cy="31" r="37" fill="#d8f8fb"/>
+    </g>
+    <path d="M90 139 Q143 99 196 139 L185 206 Q143 232 101 206 Z" fill="#1f4f62"/>
+    <path d="M110 151 Q143 129 176 151 L169 180 Q143 195 117 180 Z" fill="#307287"/>
+    <circle cx="143" cy="211" r="40" fill="#162d39"/>
+    <circle cx="143" cy="211" r="23" fill="#7ee0ea"/>
+    <circle cx="134" cy="201" r="7" fill="#fff" opacity=".85"/>
+    <path d="M100 213 Q143 248 186 213" fill="none" stroke="#d8f8fb" stroke-width="13" stroke-linecap="round"/>
+  </g>
+</svg>

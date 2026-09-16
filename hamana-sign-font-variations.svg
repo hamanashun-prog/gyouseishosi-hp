@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1420" viewBox="0 0 1500 1420">
+  <rect width="1500" height="1420" fill="#f3f0ea"/>
+  <text x="80" y="86" fill="#1b1b1b" font-size="42" font-family="'Yu Gothic','Meiryo',sans-serif" font-weight="700">書体バリエーション</text>
+  <text x="82" y="128" fill="#69645e" font-size="22" font-family="'Yu Gothic','Meiryo',sans-serif">構成・浅葱色・家旗の意匠は共通。文字の表情だけを比較します。</text>
+
+  <!-- BIZ UD Gothic: legibility first -->
+  <text x="80" y="205" fill="#47423d" font-size="25" font-family="'Yu Gothic','Meiryo',sans-serif" font-weight="700">A　BIZ UDゴシック 太字　—　見やすく、実務的</text>
+  <g transform="translate(80 235)">
+    <rect width="1340" height="320" fill="#009fc2"/>
+    <rect x="58" y="31" width="170" height="258" fill="#fff"/>
+    <rect x="104" y="70" width="78" height="68" fill="none" stroke="#111" stroke-width="16"/>
+    <rect x="104" y="183" width="78" height="68" fill="none" stroke="#111" stroke-width="16"/>
+    <line x1="285" y1="62" x2="285" y2="258" stroke="#b4e5df" stroke-width="2"/>
+    <text x="350" y="145" fill="#fff" font-size="76" font-family="'BIZ UDPGothic','BIZ UD Gothic','Yu Gothic',sans-serif" font-weight="700">ハマナ行政書士</text>
+    <text x="353" y="245" fill="#fff" font-size="76" font-family="'BIZ UDPGothic','BIZ UD Gothic','Yu Gothic',sans-serif" font-weight="700">事務所</text>
+  </g>
+
+  <!-- Meiryo: friendly and sturdy -->
+  <text x="80" y="650" fill="#47423d" font-size="25" font-family="'Yu Gothic','Meiryo',sans-serif" font-weight="700">B　メイリオ 太字　—　やわらかく、親しみやすい</text>
+  <g transform="translate(80 680)">
+    <rect width="1340" height="320" fill="#009fc2"/>
+    <rect x="58" y="31" width="170" height="258" fill="#fff"/>
+    <rect x="104" y="70" width="78" height="68" fill="none" stroke="#111" stroke-width="16"/>
+    <rect x="104" y="183" width="78" height="68" fill="none" stroke="#111" stroke-width="16"/>
+    <line x1="285" y1="62" x2="285" y2="258" stroke="#b4e5df" stroke-width="2"/>
+    <text x="350" y="145" fill="#fff" font-size="76" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士</text>
+    <text x="353" y="245" fill="#fff" font-size="76" font-family="Meiryo,sans-serif" font-weight="700">事務所</text>
+  </g>
+
+  <!-- Noto Sans JP: strong modern presence -->
+  <text x="80" y="1095" fill="#47423d" font-size="25" font-family="'Yu Gothic','Meiryo',sans-serif" font-weight="700">C　Noto Sans JP Black　—　最も力強く、現代的</text>
+  <g transform="translate(80 1125)">
+    <rect width="1340" height="320" fill="#009fc2"/>
+    <rect x="58" y="31" width="170" height="258" fill="#fff"/>
+    <rect x="104" y="70" width="78" height="68" fill="none" stroke="#111" stroke-width="16"/>
+    <rect x="104" y="183" width="78" height="68" fill="none" stroke="#111" stroke-width="16"/>
+    <line x1="285" y1="62" x2="285" y2="258" stroke="#b4e5df" stroke-width="2"/>
+    <text x="350" y="145" fill="#fff" font-size="76" font-family="'Noto Sans JP','Yu Gothic',sans-serif" font-weight="900">ハマナ行政書士</text>
+    <text x="353" y="245" fill="#fff" font-size="76" font-family="'Noto Sans JP','Yu Gothic',sans-serif" font-weight="900">事務所</text>
+  </g>
+</svg>

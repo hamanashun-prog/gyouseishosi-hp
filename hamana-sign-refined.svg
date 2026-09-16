@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+  <rect width="1600" height="520" fill="#009fc2"/>
+  <!-- 家旗：白地に太い黒枠の「口」を上下に配した縦長の意匠 -->
+  <rect x="108" y="55" width="230" height="410" fill="#ffffff"/>
+  <rect x="170" y="116" width="106" height="98" fill="none" stroke="#111111" stroke-width="26"/>
+  <rect x="170" y="290" width="106" height="98" fill="none" stroke="#111111" stroke-width="26"/>
+  <line x1="405" y1="100" x2="405" y2="420" stroke="#b4e5df" stroke-width="2"/>
+  <text x="485" y="245" fill="#ffffff" font-size="138" font-weight="700" font-family="Meiryo,sans-serif">ハマナ行政書士</text>
+  <text x="488" y="405" fill="#ffffff" font-size="138" font-weight="700" font-family="Meiryo,sans-serif">事務所</text>
+</svg>
