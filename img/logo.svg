@@ -31,18 +31,13 @@
     </g>
     <path d="M40 31 Q56 21 71 31 L76 45 Q56 53 36 45 Z" fill="#274955" stroke="#d4f4f5" stroke-width="2"/>
   </g>
-  <text x="126" y="172" fill="#e6fbff" font-size="27" font-family="Meiryo,sans-serif" font-weight="700" letter-spacing="4">DRONE FLIGHT PERMIT SUPPORT</text>
-  <text x="120" y="317" fill="#fff" font-size="100" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
-  <text x="128" y="393" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">ドローン飛行の許可・承認申請をサポート</text>
-  <text x="128" y="450" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">各種許認可、相続、補助金申請など、</text>
-  <text x="128" y="505" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">行政手続きも幅広く対応します</text>
-  <!-- 旧ドローン案（比較用に非表示） -->
-  <g display="none" transform="translate(1060 205)" filter="url(#shadow)">
-    <!-- 背負い旗：口を旗の中央に揃えた、まっすぐな家旗 -->
-    <path d="M222 154 L254 -104" fill="none" stroke="#253c45" stroke-width="9" stroke-linecap="round"/>
-    <rect x="254" y="-104" width="126" height="210" fill="#ffffff" stroke="#e9f5f6" stroke-width="3"/>
-    <rect x="281" y="-62" width="72" height="62" fill="none" stroke="#151515" stroke-width="18"/>
-    <rect x="281" y="47" width="72" height="62" fill="none" stroke="#151515" stroke-width="18"/>
+  <text x="126" y="152" fill="#e6fbff" font-size="27" font-family="Meiryo,sans-serif" font-weight="700" letter-spacing="4">DRONE FLIGHT PERMIT SUPPORT</text>
+  <text x="120" y="297" fill="#fff" font-size="100" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
+  <text x="128" y="373" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">ドローン飛行の許可・承認申請をサポート</text>
+  <text x="128" y="430" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">各種許認可、相続、補助金申請など、</text>
+  <text x="128" y="485" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">行政手続きも幅広く対応します</text>
+  <!-- 右側に大きく飛ぶドローン：タイトルとの余白と上下の中心を整える -->
+  <g transform="translate(1202 171) scale(.78)" filter="url(#shadow)">
     <!-- 回転中のプロペラ：半透明の円盤、短い残像、ぼかしで速度感を表現 -->
     <g filter="url(#motionBlur)" fill="none" stroke="#d9f8fa" stroke-linecap="round">
       <ellipse cx="55" cy="82" rx="66" ry="17" stroke-width="11" opacity=".34" transform="rotate(-14 55 82)"/>
