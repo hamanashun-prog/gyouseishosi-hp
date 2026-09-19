@@ -38,12 +38,57 @@ document.querySelectorAll('[data-service]').forEach((card) => {
   });
 });
 
-// お問い合わせフォーム（現状はサンプル動作のみ）
+// お問い合わせフォーム（FormSubmitのAJAXエンドポイント経由でメール送信）
+const CONTACT_ENDPOINT = 'https://formsubmit.co/ajax/hamana.gyouseishoshi@gmail.com';
+const CONTACT_FALLBACK_MAIL = 'hamana.gyouseishoshi@gmail.com';
 const contactForm = document.getElementById('contact-form');
+const contactStatus = contactForm && contactForm.querySelector('.contact-status');
 
-if (contactForm) {
-  contactForm.addEventListener('submit', (event) => {
+if (contactForm && contactStatus) {
+  const submitButton = contactForm.querySelector('[type="submit"]');
+  const submitLabel = submitButton.textContent;
+
+  const showStatus = (message, isError) => {
+    contactStatus.textContent = message;
+    contactStatus.classList.toggle('is-error', isError);
+    contactStatus.hidden = false;
+    contactStatus.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  };
+
+  contactForm.addEventListener('submit', async (event) => {
     event.preventDefault();
-    alert('このフォームはデザインのサンプルです。実際に送信できるようにするには、フォーム送信サービスとの連携が必要です。');
+    const data = new FormData(contactForm);
+    const payload = {
+      _subject: data.get('_subject'),
+      _template: data.get('_template'),
+      _captcha: 'false',
+      _honey: data.get('_honey'),
+      'お名前': data.get('name'),
+      email: data.get('email'),
+      '電話番号': data.get('tel') || '（未入力）',
+      'ご相談内容': contactForm.elements.service.selectedOptions[0].textContent,
+      'お問い合わせ内容': data.get('message'),
+    };
+
+    submitButton.disabled = true;
+    submitButton.textContent = '送信中…';
+    try {
+      const response = await fetch(CONTACT_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const result = await response.json();
+      if (!response.ok || String(result.success) === 'false') {
+        throw new Error(result.message || response.statusText);
+      }
+      contactForm.reset();
+      showStatus('お問い合わせを送信しました。内容を確認のうえ、改めてご連絡いたします。', false);
+    } catch (error) {
+      showStatus(`送信できませんでした。お手数ですが、時間をおいて再度お試しいただくか、${CONTACT_FALLBACK_MAIL} まで直接メールでご連絡ください。`, true);
+    } finally {
+      submitButton.disabled = false;
+      submitButton.textContent = submitLabel;
+    }
   });
 }

@@ -529,6 +529,7 @@ section[id],main[id]{scroll-margin-top:100px}
 .contact .section-desc{margin:20px auto 0}
 .contact-form{padding:40px;background:#fff;border:1px solid var(--border);border-radius:6px 6px 28px 6px}
 .contact-status{font-size:13px;padding:16px 20px;background:#eff7fa;border-left:3px solid #168ca9;margin:0 0 30px;color:var(--ink-soft)}
+.contact-status.is-error{background:#fdf1f0;border-left-color:#c0392b;color:#7a2a22}
 .form-row label{font-size:13px;font-weight:700;color:var(--ink)}
 .form-row input,.form-row select,.form-row textarea{font-size:16px;border-radius:3px;min-width:0;max-width:100%;background:#fbfdfe}
 .form-row textarea{resize:vertical}

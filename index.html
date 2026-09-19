@@ -205,8 +205,11 @@
       <p class="section-desc">初回のご相談は無料です。ご相談の内容がまとまっていなくても、お気軽にお聞かせください。</p>
     </div>
 
-    <form class="contact-form" id="contact-form">
-      <p class="contact-status">お問い合わせフォームは準備中です。現在、このページから送信はできません。</p>
+    <form class="contact-form" id="contact-form" action="https://formsubmit.co/hamana.gyouseishoshi@gmail.com" method="post">
+      <p class="contact-status" role="status" aria-live="polite" hidden></p>
+      <input type="hidden" name="_subject" value="ホームページからのお問い合わせ">
+      <input type="hidden" name="_template" value="table">
+      <div class="sr-only" aria-hidden="true"><input type="text" name="_honey" tabindex="-1" autocomplete="off"></div>
       <div class="form-row-group">
         <div class="form-row">
           <label for="name">お名前<span class="req">必須</span></label>
@@ -239,8 +242,8 @@
         <label for="message">お問い合わせ内容<span class="req">必須</span></label>
         <textarea id="message" name="message" rows="5" required></textarea>
       </div>
-      <button type="submit" class="btn btn-primary btn-block" disabled>送信受付の準備中</button>
-      <p class="form-note">ご入力内容は送信・保存されません。</p>
+      <button type="submit" class="btn btn-primary btn-block">送信する</button>
+      <p class="form-note">ご入力いただいた内容は、ご相談への対応のためにのみ使用します。</p>
     </form>
   </section>
 
