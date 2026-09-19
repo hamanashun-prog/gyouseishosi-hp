@@ -12,10 +12,10 @@
     </filter>
   </defs>
   <rect width="1600" height="720" fill="url(#sky)"/>
-  <path d="M1040 112 C1095 50 1197 76 1219 142 C1274 102 1352 138 1358 181 C1361 194 1350 202 1336 202 L1033 202 C1019 202 1010 192 1012 178 C1014 151 1023 130 1040 112 Z" fill="#fff" opacity=".24"/>
+  <path d="M1040 112 C1095 50 1197 76 1219 142 C1274 102 1352 138 1358 181 C1361 194 1350 202 1336 202 L1033 202 C1019 202 1010 192 1012 178 C1014 151 1023 130 1040 112 Z" transform="translate(0 -30)" fill="#fff" opacity=".24"/>
   <path d="M88 572 C140 520 227 535 248 590 C293 551 366 586 370 642 L30 642 C31 615 59 589 88 572 Z" fill="#fff" opacity=".17"/>
   <!-- 遠景を飛ぶ小さなドローン -->
-  <g transform="translate(900 105)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(900 85)" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <g stroke="#e9fbfc" stroke-width="5" opacity=".7">
       <ellipse cx="18" cy="20" rx="26" ry="6" transform="rotate(-12 18 20)"/>
       <ellipse cx="94" cy="20" rx="26" ry="6" transform="rotate(12 94 20)"/>
@@ -31,50 +31,9 @@
     </g>
     <path d="M40 31 Q56 21 71 31 L76 45 Q56 53 36 45 Z" fill="#274955" stroke="#d4f4f5" stroke-width="2"/>
   </g>
-  <text x="126" y="152" fill="#e6fbff" font-size="27" font-family="Meiryo,sans-serif" font-weight="700" letter-spacing="4">DRONE FLIGHT PERMIT SUPPORT</text>
-  <text x="120" y="297" fill="#fff" font-size="100" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
-  <text x="128" y="373" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">ドローン飛行の許可・承認申請をサポート</text>
-  <text x="128" y="430" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">各種許認可、相続、補助金申請など、</text>
-  <text x="128" y="485" fill="#e6fbff" font-size="36" font-family="Meiryo,sans-serif">行政手続きも幅広く対応します</text>
-  <!-- 右側に大きく飛ぶドローン：タイトルとの余白と上下の中心を整える -->
-  <g transform="translate(1202 171) scale(.78)" filter="url(#shadow)">
-    <!-- 回転中のプロペラ：半透明の円盤、短い残像、ぼかしで速度感を表現 -->
-    <g filter="url(#motionBlur)" fill="none" stroke="#d9f8fa" stroke-linecap="round">
-      <ellipse cx="55" cy="82" rx="66" ry="17" stroke-width="11" opacity=".34" transform="rotate(-14 55 82)"/>
-      <ellipse cx="351" cy="82" rx="66" ry="17" stroke-width="11" opacity=".34" transform="rotate(14 351 82)"/>
-      <ellipse cx="105" cy="220" rx="56" ry="14" stroke-width="10" opacity=".30" transform="rotate(16 105 220)"/>
-      <ellipse cx="301" cy="220" rx="56" ry="14" stroke-width="10" opacity=".30" transform="rotate(-16 301 220)"/>
-    </g>
-    <g fill="none" stroke="#203943" stroke-linecap="round" opacity=".58">
-      <path d="M6 75 Q55 42 104 75" stroke-width="8"/>
-      <path d="M302 75 Q351 42 400 75" stroke-width="8"/>
-      <path d="M62 216 Q105 187 148 216" stroke-width="7"/>
-      <path d="M258 216 Q301 187 344 216" stroke-width="7"/>
-    </g>
-    <!-- propeller hubs -->
-    <g fill="#2b4853" stroke="#d8f8fb" stroke-width="7">
-      <circle cx="55" cy="82" r="18"/><circle cx="351" cy="82" r="18"/>
-      <circle cx="105" cy="220" r="17"/><circle cx="301" cy="220" r="17"/>
-    </g>
-    <!-- four arms in realistic perspective -->
-    <g fill="none" stroke="#283f49" stroke-width="30" stroke-linecap="round">
-      <path d="M166 164 L64 89"/><path d="M240 164 L342 89"/>
-      <path d="M171 205 L105 220"/><path d="M235 205 L301 220"/>
-    </g>
-    <g fill="none" stroke="#7aa9b5" stroke-width="5" stroke-linecap="round">
-      <path d="M166 164 L64 89"/><path d="M240 164 L342 89"/>
-      <path d="M171 205 L105 220"/><path d="M235 205 L301 220"/>
-    </g>
-    <!-- faceted aircraft body -->
-    <path d="M149 139 Q202 111 255 139 L273 190 Q258 226 202 239 Q146 226 131 190 Z" fill="#263f4a"/>
-    <path d="M166 144 Q202 125 238 144 L248 171 Q202 188 156 171 Z" fill="#547b87"/>
-    <path d="M143 190 Q202 212 261 190 L249 211 Q202 234 155 211 Z" fill="#1a3039"/>
-    <!-- front sensors -->
-    <circle cx="166" cy="176" r="12" fill="#111e24"/><circle cx="238" cy="176" r="12" fill="#111e24"/>
-    <circle cx="163" cy="173" r="4" fill="#c9f7fb"/><circle cx="235" cy="173" r="4" fill="#c9f7fb"/>
-    <!-- landing legs -->
-    <path d="M158 234 L139 299 M246 234 L265 299" fill="none" stroke="#263f49" stroke-width="12" stroke-linecap="round"/>
-    <path d="M124 302 L155 302 M249 302 L280 302" fill="none" stroke="#d8f8fb" stroke-width="8" stroke-linecap="round"/>
-  </g>
-
+  <text x="126" y="150" fill="#e6fbff" font-size="28" font-family="Meiryo,sans-serif" font-weight="700" letter-spacing="4">DRONE FLIGHT PERMIT SUPPORT</text>
+  <text x="118" y="275" fill="#fff" font-size="112" font-family="Meiryo,sans-serif" font-weight="700">ハマナ行政書士事務所</text>
+  <text x="126" y="348" fill="#e6fbff" font-size="40" font-family="Meiryo,sans-serif">ドローン飛行の許可・承認申請をサポート</text>
+  <text x="126" y="406" fill="#e6fbff" font-size="40" font-family="Meiryo,sans-serif">各種許認可、相続、補助金申請など、</text>
+  <text x="126" y="464" fill="#e6fbff" font-size="40" font-family="Meiryo,sans-serif">行政手続きも幅広く対応します</text>
 </svg>
